@@ -1,0 +1,46 @@
+.about-us .form-select{
+    font-size: 16px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    color: var(--secondary-color);
+    max-width: 202px;
+    border-radius: 0;
+    border: 1px solid rgba(0, 0, 0, 0.106);
+    padding-top: 15px;
+    padding-bottom: 15px;
+ }
+ 
+ .about-us .content{
+   max-width: 857px;
+ }
+ 
+ 
+  .about-us .form-body{
+     gap: 20px;
+     flex-wrap: wrap;
+     border: 1px solid rgba(0, 0, 0, 0.106);
+     padding: 20px;
+ } 
+ 
+
+ .about-us h2{
+   max-width: 640px;
+ }
+
+ .about-us  p{
+    margin: 0;
+    padding: 15px 0 24px 0;
+ }
+
+
+ .about-us .about-img img{
+    margin-top: -70px;
+ }
+
+
+ @media (max-width: 1180px) {
+    .about-us .about-img img{
+        margin-top: 30px;
+     }
+    
+ }

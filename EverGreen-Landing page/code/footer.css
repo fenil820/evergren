@@ -1,0 +1,155 @@
+.footer{
+    background: linear-gradient(180deg, #D9D9D9 -8.45%, #4990A2 -8.42%, #B4E3E9 283.82%);
+    padding: 80px 0 0 0 ;
+}
+
+.footer .social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer .social-icons .social-links a{
+    background-color: #ffffff22;
+    padding: 10px;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+    font-size: 14px; 
+    transition: all 0.5s ease;
+
+    
+}
+
+.footer .social-icons .social-links a:hover{
+    background-color: rgb(59, 59, 59);   
+}
+
+.footer h6{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 12px;
+    margin: 0;
+    position: relative;
+    margin-bottom: 15px;
+    font-family:"Heebo", sans-serif;
+}
+.footer h6::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 50px;
+    border-bottom: 3px rgb(255, 255, 255) solid
+    
+}
+
+
+.footer .logo img{
+    padding: 0 0 20px 0;
+}
+
+.footer .social-icons p{
+    padding-bottom: 20px;
+    color: var(--white-color);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    max-width: 282px;
+}
+@media (max-width:992px) {
+    .footer .social-icons p{
+        max-width: unset;
+    }
+}
+
+
+.footer .contact-info img{
+    padding-right: 10px;
+}
+
+
+.footer .newsletter p{
+    padding-bottom: 16px;
+    color: var(--white-color);
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    max-width: 357px;
+}
+
+.footer .footer-links ul li a,.contact-info ul li a{
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.5s ease;
+
+}
+
+.footer .footer-links ul li a:hover{
+    color: rgb(211, 211, 211);
+}
+
+.footer .contact-info img:hover ,.footer .contact-info a:hover{
+    opacity: 70% ;
+    }
+
+.footer .footer-links ul li {
+    padding-bottom: 17px;
+    line-height: 19px;
+}
+
+.footer .contact-info li{
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 14px;
+}
+
+
+.footer .sign-up-form input{
+    border-radius: 0;
+    max-width: 242px;
+    height: 52px;
+}
+
+.footer .sign-up-form input[type=submit] {
+    background-color: black;
+    border-radius: 0;
+    line-height: 0;
+    padding: 15px 32px;
+    border: 1px rgb(255, 255, 255) solid;
+    color: #ffff;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.footer .sign-up-form input::placeholder{
+ color: #73737396;
+ font-size: 14px;
+ font-weight: 400;
+}
+
+.footer .sign-up-form input[type=submit]:hover {
+    background-color: rgba(18, 18, 18, 0.846);
+ 
+}
+
+
+
+
+
+.copyright{
+    border-top: 2px solid rgba(255, 255, 255, 0.253);
+    padding: 20px;
+    margin-top: 80px;
+    color: rgba(255, 255, 255, 0.749);
+  
+  } 
+
+

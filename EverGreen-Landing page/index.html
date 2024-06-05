@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EverGreen</title>
+
+  <!-- favicon icon -->
+  <link rel="icon" type="image/png" sizes="16x16" href="img/img-building.png">
+
+  <!-- fontawesome icon  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <!-- js offline -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- Bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- custome css -->
+  <link rel="stylesheet" href="code/style.css">
+  <link rel="stylesheet" href="code/header.css" />
+  <link rel="stylesheet" href="code/footer.css">
+  <link rel="stylesheet" href="code/banner.css">
+  <link rel="stylesheet" href="code/about-us.css">
+  <link rel="stylesheet" href="code/our-property.css">
+
+</head>
+
+<body>
+
+  <!-- header start -->
+  <header class="header">
+
+    <div class="container ">
+      <nav class="row d-flex align-items-center">
+
+        <div class="d-none col-lg-6 d-lg-block naw-show">
+          <ul class="navbar-nav flex-row">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- slider -->
+
+        <div class="menu-bar col-lg-6 d-flex justify-content-between ">
+
+          <div class="logo">
+            <a href="#"><img src="img/EverGreen-logo.png" alt="brand-logo img-fluid" /></a>
+          </div>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+            <img src="img/Group.png" alt="" />
+          </button>
+
+          <div class="offcanvas offcanvas-end bg-dark" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <a href="#"><img src="img/EverGreen-logo.png" alt="brand-logo img-fluid" /></a>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+
+            <div class="offcanvas-body nav-slider">
+              <ul class="navbar-nav justify-content-end gap-2">
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- header end -->
+
+
+  <!-- banner start -->
+
+  <section class="hero-banner">
+    <div class="container">
+
+      <div class="banner-header text-center text-md-start">
+        <h1>
+          <span>BUILDING</span> YOUR LIFE ON A<span>SOLID BASE</span>
+        </h1>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-4 d-flex justify-content-center justify-content-md-start py-4  align-items-center">
+          <div class="agent-card text-center text-md-start">
+            <img src="img/building-img.png" alt="" />
+
+            <div class="qualified-agents mx-auto mx-md-0  d-flex">
+              <img src="img/img-agents.png" alt="" />
+              <span class="p-0 order-2">Meet with our qualified agents</span>
+            </div>
+
+            <p class="text-white card-text">
+              Our comprehensive listings feature a wide range of properties,
+              from cozy starter homes to luxurious estates, ensuring that
+              there's something for every taste and budget.
+            </p>
+            <button class="theme-button">
+              <a href="#">GET STARTED</a>
+            </button>
+          </div>
+        </div>
+
+
+        <div class="col-md-8 inner-img d-flex justify-content-center">
+          <img src="img/img-building.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- banner end -->
+
+  <!-- About Us start -->
+
+  <section class="about-us">
+    <div class="container-fluid">
+      <div class="row align-items-center justify-content-center justify-content-lg-start">
+
+        <div class="col-12 col-xl-5 col-lg-5 col-xxl-4 justify-content-center d-flex order-lg-1 order-2 ">
+          <div class="about-img">
+            <img src="img/simone-hutsch.png" alt="" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="col-12 col-xl-7 col-lg-7 col-xxl d-flex justify-content-center order-lg-2  order-1">
+          <div class="content">
+            <div class="prefix">About Us</div>
+            <h2 class="hadding">Your Trusted Partners 
+              in Real Estate Success Stories</h2>
+            <p>We pride ourselves on being your trusted partners in real estate success stories. With unwavering
+              dedication, unparalleled expertise, and a deep understanding of the market, we are committed to turning
+              your property aspirations into thriving success narratives.</p>
+            <div class="form-wrapper">
+              <form class="d-flex justify-content-center justify-content-xl-start form-body">
+
+                <select class="form-select" aria-label="Default select example" required>
+                  <option selected>Choose Location</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+
+                <select class="form-select" aria-label="Default select example" required>
+                  <option selected>Choose Category</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+
+                <select class="form-select me-2" aria-label="Default select example" required>
+                  <option selected>Choose Tag</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+                <button class="theme-button-black"><a href="#">Find Now</a></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Us end -->
+
+
+
+
+    <!-- our-property start -->
+    <section class="our-property">
+      <div class="container">
+        <div class="d-xl-flex m-auto m-md-0 justify-content-between">
+          <div class="hadding-property ">
+            <div class="prefix">Our Property</div>
+            <h3 class="hadding">
+              Premier Homes Curated for
+              Your Discerning Taste
+            </h3>
+          </div>
+  
+          <button class="view-all">
+            <a href="#">VIEW ALL</a>
+          </button>
+        </div>
+  
+        <div class="row property-boxs">
+          <div class="col-lg-4 d-flex justify-content-center col-md-6 col-sm-10 m-auto p-0">
+            <div class="property-box">
+              <img class="text-center img-fluid" src="img/img-b1.png" alt="Villa" />
+              <p class="pt-3">Apartment</p>
+              <h6>Sunset Residence</h6>
+  
+              <button class="d-flex see-details">
+                <a href="#">SEE Details</a>
+              </button>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 d-flex justify-content-center col-md-6 mt-4 mt-md-0 col-sm-10 m-auto p-0">
+            <div class="property-box">
+              <img class="text-center img-fluid" src="img/img-b2.png" alt="Apartment" />
+              <p class="pt-3">Villa</p>
+              <h6>Bella Vista Villa</h6>
+              <button class="d-flex see-details">
+                <a href="#">SEE Details</a>
+              </button>
+            </div>
+          </div>
+  
+          <div class="col-lg-4 d-flex justify-content-center m-auto col-md-6 col-sm-10 m-auto mt-4 mt-lg-0 p-0">
+            <div class="property-box">
+              <img class="text-center img-fluid" src="img/img-b3.png" alt="" />
+              <p class="pt-3">Apartment</p>
+              <h6>Blue Ridge Residence</h6>
+              <button class="d-flex see-details">
+                <a href="#">SEE Details</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our-property end -->
+
+
+    
+
+
+  <!-- footer start -->
+  <footer class="footer">
+
+    <div class="container">
+      <div class="row gy-lg-0 gy-4">
+        <div class="col-lg-4 col-md-12 mt-2  social-icons">
+          <a href="#" class="logo"><img src="img/EverGreen logo.png" alt=""></a>
+          <p class="m-0">We pride ourselves on being your trusted partners in real estate success stories. With
+            unwavering dedication, unparalleled expertise</p>
+          <div class="social-links mb-3 mb-md-0">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6 quick-links footer-links">
+          <h6>Quick Links</h6>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li class="pb-0"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 contact-info ">
+          <h6>Contact Info</h6>
+          <ul>
+            <li>
+              <a href="tel:+11234567890">
+                <img src="img/contact.png" alt="">
+                +11234567890
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:info@domain.com">
+                <img src="img/email.png" alt="">
+                info@domain.com
+              </a>
+            </li>
+
+            <li class="pb-0">
+              <a href="#" class="d-flex align-items-start">
+                <img src="img/addresh.png" alt="">
+                120 King St, Charleston, Dallas sc <br>
+                29401, USA
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 newsletter ">
+          <h6>Newsletter</h6>
+          <p class="m-0">Our newsletter is your direct link to a world of inspiration, design tips, and special
+            promotions.</p>
+
+          <form action="#" class="sign-up-form d-flex">
+            <input type="email" name="email" class="form-control" placeholder="Your Email Address">
+            <input type="submit" class="button" value="Submit">
+          </form>
+        </div>
+
+      </div>
+
+      <div class="copyright">
+        <p class="m-0 text-center text-white">© 2023 EventWise | All Right Reserved</p>
+      </div>
+
+    </div>
+  </footer>
+  <!-- footer end -->
+
+
+  <!-- Custom Js -->
+  <script src="js/custome.js"></script>
+
+  <!-- bootstrap js -->
+  <script src=" js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

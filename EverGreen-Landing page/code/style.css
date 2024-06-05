@@ -1,0 +1,348 @@
+
+/* Heebo font */
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('font/Barlow-Medium.eot');
+    src: url('font/Heebo-Medium.eot?#iefix') format('embedded-opentype'),
+        url('font/Heebo-Medium.woff2') format('woff2'),
+        url('font/Heebo-Medium.woff') format('woff'),
+        url('font/Heebo-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('font/Heebo-Regular.eot');
+    src: url('font/Heebo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('font/Heebo-Regular.woff2') format('woff2'),
+        url('font/Heebo-Regular.woff') format('woff'),
+        url('font/Heebo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Heebo';
+    src: url('font/Heebo-Bold.eot');
+    src: url('font/Heebo-Bold.eot?#iefix') format('embedded-opentype'),
+        url('font/Heebo-Bold.woff2') format('woff2'),
+        url('font/Heebo-Bold.woff') format('woff'),
+        url('font/Heebo-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Barlow font*/
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('Barlow-Medium.eot');
+    src: url('Barlow-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Barlow-Medium.woff2') format('woff2'),
+        url('Barlow-Medium.woff') format('woff'),
+        url('Barlow-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('Barlow-Regular.eot');
+    src: url('Barlow-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Barlow-Regular.woff2') format('woff2'),
+        url('Barlow-Regular.woff') format('woff'),
+        url('Barlow-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #B4E3E9;
+    --secondary-color: #000000;
+    --white-color: #ffffff;
+    --prefix-color: rgba(0, 0, 0, 0.212);
+    --h1-font: 70px;
+    --h2-font: 42px;
+    --h3-font: 42px;
+    --h4-font: 18px;
+    --h5-font: 20px;
+    --h6-font: 24px;
+    --primary-font-family: 'Heebo', sans-serif;
+    --secondary-font-family: "Barlow", sans-serif;
+    --regular-font: 400;
+    --medium-font: 600;
+    --Bold-font: 700;
+    --body-line-height: 26px;
+}
+
+
+
+.container {
+    width: 100%;
+    max-width: 1390px;
+    padding: 0 20px;
+}
+
+.container-fluid{
+    width: 100%;
+    max-width: 1920px;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+    font-family: "Barlow", sans-serif;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+h1 {
+    font-size: var(--h1-font);
+    font-weight: var(--medium-font);
+    line-height: 65px;
+    color: #ffffff;
+    font-family: var(--primary-font-family);
+} 
+
+h1,
+ h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--primary-font-family);
+} 
+ 
+
+/* button start*/
+.theme-button {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.theme-button a {
+    font-size: 16px;
+    font-weight: var(--medium-font);
+    padding: 15px 30px;
+    text-transform: capitalize;
+    transition: all 0.5s ease;
+    display: inline-block;
+    font-family: var(--secondary-font-family);
+    color: var(--secondary-color);
+    border: none;
+}
+
+.theme-button a:hover {
+    background-color: rgba(216, 216, 216, 0.846);
+}
+
+
+/* button black start */
+
+.theme-button-black  {
+padding: 0;
+border: none;
+margin: 0;
+}
+
+.theme-button-black a {
+    font-size: 16px;
+    font-weight: var(--medium-font);
+    padding: 15px 30px;
+    text-transform: uppercase;
+    transition: all 0.5s ease;
+    display: inline-block;
+    font-family: var(--secondary-font-family);
+    color: var(--secondary-color);
+    border: none;
+    background-color:black;
+    color: var(--white-color);
+}
+
+.theme-button-black a:hover {
+    background-color: rgba(18, 18, 18, 0.846);
+}
+/* button black end */
+
+/* button end*/
+
+
+/* prefix start*/
+
+.prefix {
+    font-size: 110px;
+    font-family: var(--secondary-font-family);
+    font-weight: var(--medium-font);
+    line-height: 132px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: calc(1px);
+    color: var(--prefix-color);
+    letter-spacing: 10px;
+    padding-left: 10px;
+
+}
+
+.hadding {
+    color: var(--secondary-color);
+    font-family: var(--primary-font-family);
+    font-size: 42px;
+    /* font-weight: var(--medium-font); */
+    font-weight: 600;
+    line-height: 61px;
+    text-transform: uppercase;
+    margin-top: -62px;
+    margin-bottom: 0;
+}
+
+/* .paragraph text */
+p {
+    color: #454545;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: var(--regular-font);
+    font-family: var(--secondary-font-family);
+}
+
+.padding-vertical {
+    padding: 120px 0;
+}
+
+.padding-bottom {
+    padding-bottom: 120px;
+}
+
+.padding-top {
+    padding-top: 120px;
+}
+
+h1{
+    font-size: var(--h1-font);
+}
+
+h2{
+    font-size: var(--h2-font);
+}
+
+h3{
+    font-size: var(--h3-font);
+}
+
+h4{
+    font-size: var(--h4-font);
+}
+
+h5{
+    font-size: var(--h5-font);
+}
+
+h6{
+    font-size: var(--h6-font);
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+
+
+
+
+/* prefix end*/
+
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width:575px) {
+    h1 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .hadding {
+        text-align: center;
+        font-size: 38px;
+        line-height: 50px;
+        margin-top: -55px;
+    }
+
+    .about-us p {
+        text-align: center;
+    }
+
+    .prefix {
+        text-align: center;
+        font-size: 90px;
+        padding: 0;
+
+    }
+
+}
+
+@media (max-width:480px) {
+
+    .hadding {
+        font-size: 32px;
+        line-height: 40px;
+        margin-top: -60px;
+    }
+
+
+    .prefix {
+        text-align: center;
+        font-size: 70px;
+
+    }
+
+}
+
+@media (max-width:380px) {
+
+    .hadding {
+        font-size: 32px;
+        line-height: 40px;
+        margin-top: -60px;
+    }
+
+
+    .prefix {
+        text-align: center;
+        font-size: 49px;
+
+    }
+
+}
